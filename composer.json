@@ -1,0 +1,22 @@
+{
+    "name": "nagmat84/php-stan-dummy",
+    "description": "A dummy application to test PhpStan rules",
+    "type": "project",
+    "require": {
+        "php": "^8.0",
+        "phpstan/phpstan": "^1.7",
+        "phpstan/phpstan-strict-rules": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nagmat84\\PhpStanDummy\\": "dummy-src/",
+            "Nagmat84\\PhpStan\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Matthias Nagel",
+            "email": "matthias.h.nagel@posteo.de"
+        }
+    ]
+}
