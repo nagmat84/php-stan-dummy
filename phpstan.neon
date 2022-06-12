@@ -7,5 +7,7 @@ parameters:
 		- dummy-src
 
 rules:
+    #- Nagmat84\PhpStan\Rules\ReportAllNodesRule
     - Nagmat84\PhpStan\Rules\NoWeakComparisonRule
-    - Nagmat84\PhpStan\Rules\ReportAllNodesRule
+    - Nagmat84\PhpStan\Rules\NoBooleanCastRule
+    - Nagmat84\PhpStan\Rules\NoBooleanConversionRule
