@@ -5,3 +5,7 @@ parameters:
 	level: 9
 	paths:
 		- dummy-src
+
+rules:
+    - Nagmat84\PhpStan\Rules\NoWeakComparisonRule
+    - Nagmat84\PhpStan\Rules\ReportAllNodesRule
