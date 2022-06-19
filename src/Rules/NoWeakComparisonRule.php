@@ -34,8 +34,8 @@ class NoWeakComparisonRule implements Rule
 					'Weak comparison via "' . $node->getOperatorSigil() . '" is forbidden.'
 				)->build(),
 			];
-		} else {
-			return [];
 		}
+
+		return [];
 	}
 }
